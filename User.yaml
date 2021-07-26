@@ -1,8 +1,0 @@
----
-- hosts: app
-  become: yes
-  tasks:
-  - name: Create a new user on the system
-    user:
-      name: Prabhati
-      groups: wheel
